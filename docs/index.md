@@ -4,30 +4,28 @@ layout: default
 
 {{ title }}
 
-### JavaScript Code
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## Open JDK: Java Mission Control/Java Flight Recorder
+[JFR and Command Line Tools](./blog/2021/jfr-command-line-tools)
 
 
-### Java Code
+
+### How to create a class and it's instance
 ```java
 // Declaring constructors
-public class Bunny {
-    //public bunny(){} //Wrong: doesn't compile as java is case-sensitive
-    public Bunny(){
-        System.out.println("constructor");
+public class Blog {
+
+    //public blog(){} //ALERT: doesn't compile as java is case-sensitive
+    
+    public Blog(){
+        System.out.println("default constructor");
     }
 
-    //GOOD, WARNING: not a constructor, it's a method, but with similar name as
-    public void Bunny(){
-
-    };
-    // constructor, it may be problematic
+    //WARNING: Compiles but it's not a constructor, it's a method
+    public void Blog(){};
+    /**
+     * Constructor can be already a big fun, but 
+     * Java offers much more challenges
+     * Keep Reading
+    */
 }
 ```
