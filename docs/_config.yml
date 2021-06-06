@@ -31,7 +31,7 @@ github_username:  jekyll
 
 # Build settings
 # theme: minima # default theme
-them: jekyll-theme-cayman
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
@@ -54,5 +54,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-theme: jekyll-theme-cayman
