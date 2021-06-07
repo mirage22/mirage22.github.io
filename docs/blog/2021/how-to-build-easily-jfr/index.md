@@ -32,10 +32,11 @@ usage: call ./build.sh with the following options:
    --help                      to show this help dialog
 ```
 
-The script allows to chain the command, on the background it start the required p2 repository and makes all 
-required steps. You can build and run the JMC/JFR in one simple command:
+The script allows to chain the commands and on the background it starts the required p2 repository. It makes all 
+required steps. Let's build JMC/JFR in simple commands:
 ```bash
-$ build.sh --clean --installCore --packageJmc --run
+$ build.sh --clean --installCore
+$ build.sh --packageJmc --run
 ```
 
 ### Building JFR by command line
