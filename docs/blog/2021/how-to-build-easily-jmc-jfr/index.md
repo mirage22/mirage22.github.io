@@ -2,9 +2,9 @@
 layout: default
 ---
 
-## How to easily build JFR
+## How to easily build JMC/JFR
 
-Build Java Flight Recorder from the source-code is easier than it ever was. It is not required to read a documentation or running additional application. In this post we explore both way. The first is the traditional and the seconde is very neat script build script available for unix and windows systems. The post is meant
+Build Java Mission Control / Flight Recorder from the source-code is easier than it ever was. It is not required to read a documentation or running additional application. In this post we explore both way. The first is the traditional and the seconde is very neat script build script available for unix and windows systems. The post is meant
 unix users.
 
 In both cases we clone the GitHub JMC repository to JMC_FOLDER destination [link](https://github.com/openjdk/jmc)

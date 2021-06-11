@@ -5,7 +5,7 @@ layout: default
 {{ title }}
 
 ## Open JDK: Java Mission Control/Java Flight Recorder
-[How to build easily JFR](./blog/2021/how-to-build-easily-jfr)
+[How to build easily JMC/JFR](./blog/2021/how-to-build-easily-jmc-jfr)
 
 
 
